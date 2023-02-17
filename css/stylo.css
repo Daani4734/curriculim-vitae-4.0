@@ -1,0 +1,351 @@
+
+          /*barra de navegación*/
+.navbar {
+        padding: 2rem;  
+        background: rgb(23,59,55);
+            /*180º color gris gradiente*/
+
+        background: linear-gradient(180deg, rgba(23,59,55,0.36606185442927175) 0%,
+         rgba(73,101,98,1) 7%, rgba(172,185,184,1) 10%, rgba(106,129,127,1) 12%, 
+         rgba(189,199,198,1) 26%, rgba(255,255,255,1) 76%);
+    
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+/*----------agregar url a hover 
+de icono pc principal-----------------*//*
+.colapse:hover{
+}
+/*-----------------------------------------*/
+.logoWeb {
+    width: 60px;
+    height: 60px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: 'Unbounded', cursive;
+}
+h1 a{
+        text-decoration: none;
+        color:black
+}
+/* 0º color gris gradiente 
+background: rgb(23,59,55);
+background: linear-gradient(0deg, rgba(23,59,55,0.36606185442927175) 0%, 
+rgba(73,101,98,1) 7%,
+ rgba(172,185,184,1) 10%,
+ rgba(106,129,127,1) 12%,
+ rgba(189,199,198,1) 26%, rgba(255,255,255,1) 76%);
+*/
+
+
+
+
+
+            /*section hero*/
+.hero{
+    background: rgb(23,59,55);
+    background: linear-gradient(0deg, rgba(23,59,55,0.36606185442927175) 0%, 
+    rgba(73,101,98,1) 7%,
+    rgba(172,185,184,1) 10%,
+    rgba(106,129,127,1) 12%,
+    rgba(189,199,198,1) 26%, rgba(255,255,255,1) 76%);;
+    min-height: 450px;
+    text-align: center;
+}
+.hero-principal {
+    padding: 3rem;
+}
+
+
+
+img{
+    border-radius: 24%!important;
+}
+
+
+/*imagen de perfil*/
+.hero-imagen-desarrolador {
+    width: 206px;
+    height: 452px;
+    margin: 6px;
+    border-radius: 49% !important;
+    border: 1px solid black;
+}
+
+.hero-principal h2{
+    font-size: 1.5rem;
+    color: #615151;
+}
+
+/*mi Historia_ sección fondo negro*/
+.section-black{
+    background-color: black;
+    color: white;
+}
+.sectionTitle{
+    font-size: 2rem;
+    font-family: 'Unbounded', cursive;
+   
+}
+.sectionParrafer{
+    font-size: 1.2rem;
+}
+
+
+section.miHistoria{
+    height: 500px;
+    padding: 500px;
+    display: flex;
+}
+div.cont{
+
+    width: 874px;
+    max-height: 800px;
+    justify-content: center;
+    
+}
+
+                /*PIE DE PAGINA*/ 
+footer{
+    display: flex;
+    width: 100%;
+    font-family: 'Unbounded', cursive;
+}
+
+/*color de pie de pagina gradiente 0º*/
+.tituloPieDePagina{
+    background: rgb(23,59,55);
+    background: linear-gradient(0deg, rgba(23,59,55,0.36606185442927175) 0%, 
+    rgba(73,101,98,1) 7%,
+     rgba(172,185,184,1) 10%,
+     rgba(106,129,127,1) 12%,
+     rgba(189,199,198,1) 26%, rgba(255,255,255,1) 76%);
+    width: 100%;
+    text-align: center;
+}
+.tituloPieDePagina h3{
+    padding: 5px;
+    text-align: start;
+    margin: 20px;
+}
+
+
+footer ul{
+    width: 100%;
+    list-style: none;
+    color:black;align-items: center;
+
+}
+
+footer li{
+
+    margin: 25px;
+
+}
+
+
+footer a{
+    margin:.8rem;
+    padding: .6rem;
+    text-decoration: none;
+    color:black;
+    font-weight:900;
+    font-size: 21px;
+    font-family: 'Unbounded', cursive;
+   
+
+
+}
+.facebook:hover{
+    background-color : blue;
+    color:white;
+    transition: background-color 2s;
+}
+
+
+.telegram:hover{
+    background-color : #0d6efda3;
+    color:white;
+    transition: background-color 2s;
+   
+    
+}
+
+
+.wathsapp:hover{
+    background-color : #509c33;
+    color:white;
+    transition: background-color 2s;
+}
+
+.instagram:hover{
+    background-color : rgba(219, 96, 137, 0.918);
+    color:white;
+    transition: background-color 2s;
+}
+
+
+.gmail:hover{
+    background-color :rgb(255, 51, 0);
+    color:white;
+    transition: background-color 2s;
+}
+
+.linkedin:hover{
+    background-color : rgb(65, 65, 245);
+    color:white;
+    transition: background-color 2s;
+}
+
+.github:hover{
+    background-color : rgb(10, 10, 24);
+    color:white;
+    transition: background-color 2s;
+}
+
+
+/*primer hijo .clase edición interacción java script*/
+.primerHijo{
+    width: 100%;
+    height: 100%;
+}
+.contenedorKey{
+    width: 90px;
+    height: 140px;
+    padding:10px ;
+    margin: 40px;
+    
+
+}
+.soyElNieto{
+    width: 80px;
+}
+
+input{
+    width: 201px;
+    margin-bottom: 10px;
+    
+}
+
+img{
+    width: 50%;
+    height: 30%;
+    border: 1px solid rgb(151, 151, 151);
+    border-bottom: 2px;
+}
+/*--------------clase swich para esconder imagen---------- */
+
+img.offSwich{
+    display: none;
+}
+.onSwich{
+    display: block;
+}
+
+div.btns{
+    
+    border: 1px solid gery;
+    display: flex;
+    
+}
+button.toggleBtn{
+    
+    font-family: 'Unbounded', cursive;
+    font-size: .5rem;
+    width: 160px;
+    height: 60px;
+    border-radius: 40px;
+    padding: 10px;
+    margin:30px;
+    background-color:rgba(172,185,184,1);
+}
+
+div.contador{
+    width: 100%;
+    height: 184px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+
+}
+.contador h3{
+    font-size: 1.3rem;
+    font-family:'Unbounded', cursive;
+    width: 100%;
+    text-align: center;
+    align-self: end;
+    margin: 10px;
+    
+}
+span{
+    font-size: 20pxpx;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+    /*logo responsibe*/
+ 
+ @media screen and (max-width: 767px) {
+    .logoWeb{
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 700px){
+    .hero-inferior-imagen{
+        max-width: 600px;
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+    h1{
+        font-size: 1.5rem;
+    }
+    h2{
+        font-size: .8rem;
+    }
+}
+
+
+
+
+@media screen and (max-width: 800px){
+
+section.miHistoria{
+    display: flex;
+    justify-content: center;
+
+   }
+  
+div.cont{
+        height: 800px;
+        width: 643px;
+        margin-right: 150PX;
+        font-size: 1.0rem ;
+        align-content: flex-start;
+            }
+.cont p{
+            display: inline;
+        }
+.cont h2{
+            font-size:1.5rem ;
+        }
+
+    }
+    
