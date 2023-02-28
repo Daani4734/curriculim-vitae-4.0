@@ -1,15 +1,35 @@
-
-          /*barra de navegación*/
+         /*barra de navegación*/
 .navbar {
         padding: 2rem;  
-        background: rgb(23,59,55);
-            /*180º color gris gradiente*/
-
-        background: linear-gradient(180deg, rgba(23,59,55,0.36606185442927175) 0%,
-         rgba(73,101,98,1) 7%, rgba(172,185,184,1) 10%, rgba(106,129,127,1) 12%, 
-         rgba(189,199,198,1) 26%, rgba(255,255,255,1) 76%);
     
+        
+        /*180º color gris gradiente*/
+        background-image: url(/img/Palette.svg);
+         border: 2px double grey;
+         border-radius: 2px;
+         transition: 2s;
+         opacity: 75%;
+   
 }
+.navbar li a{
+    color:white !important;
+}
+
+
+a.navbar:hover{
+    font-size: ;
+    
+         
+}
+
+/*
+background: linear-gradient(70deg, rgba(11, 26, 24, 0.366) 5%,
+         rgb(28, 34, 33) 9%, rgb(119, 122, 122) 12%, rgb(142, 158, 156) 14%, 
+         rgba(189,199,198,1) 20%, rgba(255,255,255,1) 76%);
+*/
+
+
+
 
 .navbar-collapse {
     align-items: center;
@@ -21,8 +41,8 @@ de icono pc principal-----------------*//*
 }
 /*-----------------------------------------*/
 .logoWeb {
-    width: 60px;
-    height: 60px;
+    width: 46px;
+    height: 50px;
 }
 
 section {
@@ -38,7 +58,7 @@ h1{
 }
 h1 a{
         text-decoration: none;
-        color:black
+        color:white
 }
 /* 0º color gris gradiente 
 background: rgb(23,59,55);
@@ -55,40 +75,48 @@ rgba(73,101,98,1) 7%,
 
             /*section hero*/
 .hero{
+    
+    background-image: url(/img/imagenDeFondo.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    opacity: 80%;
+    /*
     background: rgb(23,59,55);
     background: linear-gradient(0deg, rgba(23,59,55,0.36606185442927175) 0%, 
     rgba(73,101,98,1) 7%,
     rgba(172,185,184,1) 10%,
     rgba(106,129,127,1) 12%,
     rgba(189,199,198,1) 26%, rgba(255,255,255,1) 76%);;
+    */
     min-height: 450px;
     text-align: center;
 }
 .hero-principal {
     padding: 3rem;
-}
-
-
-
-img{
-    border-radius: 24%!important;
+    color:white;
 }
 
 
 /*imagen de perfil*/
 .hero-imagen-desarrolador {
-    width: 206px;
-    height: 452px;
+    width: 109px;
+    height: 205px;
     margin: 6px;
-    border-radius: 49% !important;
+    border-radius: 3% !important;
     border: 1px solid black;
+    transition: 2s;
 }
+img.perfil:hover{
+        width: 157px;
+        height: 297px;
+
+}
+
 
 .hero-principal h2{
     font-size: 1.5rem;
-    color: #615151;
+    color: #f0f0f0;
 }
-
 /*mi Historia_ sección fondo negro*/
 .section-black{
     background-color: black;
@@ -100,7 +128,12 @@ img{
    
 }
 .sectionParrafer{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    
+}
+p.sectionParrafer:hover{
+    color: #a3cc93;
+
 }
 
 
@@ -116,6 +149,136 @@ div.cont{
     justify-content: center;
     
 }
+
+
+
+/*secion experiencias                 
+
+
+        seguir modificando
+
+*/
+
+section.misExp{
+    width: 100%;
+    height: 900px;
+    display: grid;
+    margin: 50px;
+    text-align:center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+}
+.misExp div{
+    overflow: hidden;
+}
+
+.experiencias{
+    max-width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 10px;
+    border: 1px solid green;
+    flex-wrap: wrap;
+    
+
+}
+.misExp img{
+    width:350px ;
+    height: 280px;
+}
+
+
+/*----------------------
+----------------------cubo de imágenes background*/
+
+.formación{
+    width: 40%;
+    height: 300px;
+    border: 1px solid aqua;
+    margin: 8px;
+    padding: 5px;
+    margin:1px solid green;
+ }
+
+
+.expLab{
+    width: 40%;
+    height: 300px;
+    border:1px solid red;
+    margin: 8px;
+    padding: 5px;
+ 
+}
+/*:hover{
+    filter:grayscale(80%);
+
+}*/
+.framework{
+    width: 40%;
+    height: 300px;
+    border:1px solid rgb(51, 51, 99);
+    margin: 8px;
+    padding: 5px;
+
+}
+
+
+/*.framework:hover{
+    filter:grayscale(80%);
+    width:48% ;
+    height: 338px;
+    background-size: 394px 380px;
+}*/
+
+
+.expDesarrolador{
+    width: 41%;
+    height: 300px;
+    border:1px solid rgb(51, 99, 77);
+    margin: 8px;
+    padding: 5px;
+
+}
+/*.expDesarrolador h4{
+    color:white;
+    text-align: center;
+    display: block;
+}*/
+
+/*-----------------------Nueva edicion del cubo img de paginas------------------------
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                 /*PIE DE PAGINA*/ 
 footer{
@@ -215,8 +378,9 @@ footer a{
     transition: background-color 2s;
 }
 
-
+/*
 /*primer hijo .clase edición interacción java script*/
+/*
 .primerHijo{
     width: 100%;
     height: 100%;
@@ -246,7 +410,7 @@ img{
     border-bottom: 2px;
 }
 /*--------------clase swich para esconder imagen---------- */
-
+/*
 img.offSwich{
     display: none;
 }
@@ -293,9 +457,7 @@ span{
     font-size: 20pxpx;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-
-
+*/
 
     /*logo responsibe*/
  
@@ -311,6 +473,14 @@ span{
         max-width: 600px;
     }
 
+}
+
+@media  and (max-width:964px){
+    .navbar{
+        width:100%;       
+        
+    }
+    
 }
 
 @media screen and (max-width: 390px) {
